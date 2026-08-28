@@ -1,0 +1,27 @@
+package Conditional_statement_in_Java;
+import java.util.*;
+
+public class if_else_if_ladder_statement {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the first number : ");
+        int a = sc.nextInt();
+
+        System.out.println("Enter the second number : ");
+        int b = sc.nextInt();
+
+        System.out.println("Enter the third number : ");
+        int c = sc.nextInt();
+
+        if (a > b && a > c) {
+            System.out.println("'a' is greater.");
+        } else if (b > c && b > a) {
+            System.out.println("'b' is greater.");
+        }
+        else {
+            System.out.println("'c' is greater.");
+        }
+    }
+}
