@@ -10,6 +10,7 @@ public class nested_if_else_statement {
             int age = sc.nextInt();
 
             if (age == -1) {
+                System.out.println("Exit!");
                 break;
             }
 
